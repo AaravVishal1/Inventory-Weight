@@ -1,0 +1,23 @@
+{
+    "required": true,
+    "package": "com.inventoryweight.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+        "PlayerEntityMixin",
+        "LivingEntityMixin",
+        "ServerPlayerEntityMixin",
+        "FallDamageMixin",
+        "SwimmingMixin",
+        "ClimbingMixin",
+        "HungerMixin",
+        "BlockBreakMixin",
+        "ElytraMixin",
+        "FootstepMixin"
+    ],
+    "client": [
+        "ClientPlayerEntityMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

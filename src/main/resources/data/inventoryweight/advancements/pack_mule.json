@@ -1,0 +1,23 @@
+{
+  "parent": "inventoryweight:root",
+  "display": {
+    "icon": {
+      "item": "minecraft:leather_chestplate"
+    },
+    "title": {
+      "text": "Pack Mule",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Reach the Heavy weight tier"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "heavy_tier": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

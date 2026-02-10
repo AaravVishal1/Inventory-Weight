@@ -1,0 +1,23 @@
+{
+  "parent": "inventoryweight:pack_mule",
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_chestplate"
+    },
+    "title": {
+      "text": "Beast of Burden",
+      "color": "red"
+    },
+    "description": {
+      "text": "Reach the Overloaded weight tier"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "overloaded_tier": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

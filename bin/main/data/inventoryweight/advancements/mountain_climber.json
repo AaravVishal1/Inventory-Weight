@@ -1,0 +1,23 @@
+{
+  "parent": "inventoryweight:root",
+  "display": {
+    "icon": {
+      "item": "minecraft:ladder"
+    },
+    "title": {
+      "text": "Mountain Climber",
+      "color": "gray"
+    },
+    "description": {
+      "text": "Climb 100 blocks on ladders while heavily encumbered"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "climb": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

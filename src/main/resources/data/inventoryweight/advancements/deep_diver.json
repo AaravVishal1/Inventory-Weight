@@ -1,0 +1,23 @@
+{
+  "parent": "inventoryweight:root",
+  "display": {
+    "icon": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "title": {
+      "text": "Deep Diver",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "Swim 20 blocks deep while carrying heavy loads"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "deep_dive": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

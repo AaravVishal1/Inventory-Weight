@@ -1,0 +1,26 @@
+{
+    "schemaVersion": 1,
+    "id": "inventoryweight",
+    "version": "${version}",
+    "name": "Inventory Weight",
+    "description": "Adds a realistic inventory weight system where items apply movement penalties based on total inventory weight.",
+    "authors": ["InventoryWeight Team"],
+    "contact": {
+        "homepage": "https://github.com/inventoryweight/inventory-weight",
+        "sources": "https://github.com/inventoryweight/inventory-weight"
+    },
+    "license": "MIT",
+    "environment": "*",
+    "entrypoints": {
+        "main": ["com.inventoryweight.InventoryWeight"],
+        "client": ["com.inventoryweight.client.InventoryWeightClient"]
+    },
+    "mixins": ["inventoryweight.mixins.json"],
+    "accessWidener": "inventoryweight.accesswidener",
+    "depends": {
+        "fabricloader": ">=0.15.6",
+        "fabric": "*",
+        "minecraft": "~1.20.1",
+        "java": ">=17"
+    }
+}

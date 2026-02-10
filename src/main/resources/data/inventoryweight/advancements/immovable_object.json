@@ -1,0 +1,24 @@
+{
+  "parent": "inventoryweight:beast_of_burden",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_chestplate"
+    },
+    "title": {
+      "text": "Immovable Object",
+      "color": "dark_red"
+    },
+    "description": {
+      "text": "Reach the Crippled weight tier... you may have overdone it"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "crippled_tier": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

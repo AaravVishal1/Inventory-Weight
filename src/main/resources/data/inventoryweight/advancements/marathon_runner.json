@@ -1,0 +1,23 @@
+{
+  "parent": "inventoryweight:pack_mule",
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_boots"
+    },
+    "title": {
+      "text": "Marathon Runner",
+      "color": "green"
+    },
+    "description": {
+      "text": "Travel 5,000 blocks while in Heavy tier or above"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "marathon": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

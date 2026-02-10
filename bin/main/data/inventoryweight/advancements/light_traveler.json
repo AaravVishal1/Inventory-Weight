@@ -1,0 +1,23 @@
+{
+  "parent": "inventoryweight:root",
+  "display": {
+    "icon": {
+      "item": "minecraft:feather"
+    },
+    "title": {
+      "text": "Light Traveler",
+      "color": "white"
+    },
+    "description": {
+      "text": "Travel 10,000 blocks while carrying almost nothing"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "light_travel": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
